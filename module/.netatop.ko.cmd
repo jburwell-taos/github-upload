@@ -1,0 +1,1 @@
+cmd_/home/jimb/src/netatop-2.0/module/netatop.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/jimb/src/netatop-2.0/module/netatop.ko /home/jimb/src/netatop-2.0/module/netatop.o /home/jimb/src/netatop-2.0/module/netatop.mod.o ;  true
